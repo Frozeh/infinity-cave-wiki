@@ -226,3 +226,9 @@ code {
     font-size: 0.9em;
     color: #f0f0f0;
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
