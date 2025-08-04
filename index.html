@@ -1,2 +1,72 @@
-<title>Infintiy Cave Wiki</title>
-<h1>Coming soon</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Infinity Cave Wiki</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="navigation-bar">
+    <a href="../infinity-cave-wiki/index.html" class="nav-link active">Home</a>
+    <a href="loot_table_output.html" class="nav-link">Loot Tables</a>
+    <a href="biomes/amethyst.html" class="nav-link">Amethyst Caves</a>
+    <a href="biomes/deeprock.html" class="nav-link">Deeprock Caverns</a>
+    <a href="biomes/sulfide.html" class="nav-link">Sulfide Caves</a>
+    <a href="biomes/molten.html" class="nav-link">Molten Caves</a>
+    <a href="biomes/frozen.html" class="nav-link">Frozen Caves</a>
+    <a href="biomes/mushroom.html" class="nav-link">Mushroom Gorge</a>
+    <a href="biomes/limestone.html" class="nav-link">Limestone Grotto</a>
+    <a href="biomes/deep_dark.html" class="nav-link">Deep Dark</a>
+</div>
+    <div class="main-container">
+        <h1>Welcome to the Infinity Cave Wiki</h1>
+        <p>This is the starting point for viewing all the game data.</p>
+        
+        <h2 style="margin-top: 60px;">Biomes</h2>
+        <p>Explore the biomes below:</p>
+        
+        <div class="item-grid">
+            <a href="loot_table_output.html" class="item-card clickable-card">
+                <span class="item-name">View Loot Tables</span>
+            </a>
+            <a href="biomes/amethyst.html" class="item-card clickable-card">
+                <span class="item-name">Amethyst Caves</span>
+            </a>
+            <a href="biomes/deeprock.html" class="item-card clickable-card">
+                <span class="item-name">Deeprock Caverns</span>
+            </a>
+            <a href="biomes/sulfide.html" class="item-card clickable-card">
+                <span class="item-name">Sulfide Caves</span>
+            </a>
+            <a href="biomes/molten.html" class="item-card clickable-card">
+                <span class="item-name">Molten Caves</span>
+            </a>
+            <a href="biomes/frozen.html" class="item-card clickable-card">
+                <span class="item-name">Frozen Caves</span>
+            </a>
+            <a href="biomes/mushroom.html" class="item-card clickable-card">
+                <span class="item-name">Mushroom Gorge</span>
+            </a>
+            <a href="biomes/limestone.html" class="item-card clickable-card">
+                <span class="item-name">Limestone Grotto</span>
+            </a>
+            <a href="biomes/deep_dark.html" class="item-card clickable-card">
+                <span class="item-name">Deep Dark</span>
+            </a>
+        </div>
+
+        <h2 style="margin-top: 60px;">Getting Started</h2>
+        <p>Infinity Cave increases the world height from Y-64 to Y-128, where normal mobs do not spawn, replaced with a custom mob-spawning system. You can configure this with <code>/function infinity_cave:settings</code>. Mobs will contantly try to spawn every second, where the chance is determined by the frequency variable, set to 20 by default, which means means at standard frequency there is a 20% chance for a mob to spawn every second. Mob cap is calculated per player and set to 3 by default, the mob cap is increased depending on how many players there are in the area, if there are 2 players and the mob cap is set to 3, it means the mob cap will be 6 with 2 players in the same area.</p>
+        <h2 style="margin-top: 60px;">Important Information</h2>
+        <p>It is possible to prevent mobs from spawning by entering a structure or placing down Soul-like light sources, this includes: Soul Torch, Soul Campfire, Soul Fire, Soul Lantern and Beacon. This prevents mob spawning in a 10 block distance. Mobs may drop repels, and repels can be used to prevent spawning without the use of Soul-like items for a short period of time.</p>    
+        <h2 style="margin-top: 60px;">Mob tiers and progression</h2>
+        <p>Mobs are devided into five different tiers, Common, Uncommon, Rare, Epic and Legendary. Each biome has its own mob pool and loot table pool. Common mobs are the easiest type of mob with similar health to that of normal vanilla mobs. Uncommon mobs are similar to Piglin Brutes in terms of strength and health. Rare mobs are incredibly powerful and should be fought with causion, but can drop pretty great loot. Epic mobs can spawn quite complex mobs with unique AI or unique abilities which cannot spawn as a lower tier, and drops amazing loot. Legendaries have their own assigned bossbar and have elements assigned to them giving them additional abilities, some of which are biome specific, legendaries may drop custom weapons that are much more powerful than vanilla weapons. It is important to point out that rares, epics and legendaries will not spawn right away, the player needs to progress in order for higher tiers to spawn, this is done by killing mobs, which increases the player's progression level. Killing higher tier mobs increases progression faster, so while a common mob is worth 1 point, an uncommon one will be worth 3, for example, depending on the progression setting.</p>        
+        <h2 style="margin-top: 60px;">Trial Spawner Structures</h2>
+        <p>There are certain structures that can spawn in the following biomes: Amethyst Caves, Sulfide Caves, Molten Caves, Limestone Grotto, Frozen Caves and Mushroom Gorge. These structures are called trial spawner structures, which is a reoccurring spawner that can spawn its tier every so often. Uncommon spawners have a weight of 75, Rare spawners have a weight of 12, Epic spawners have a weight of 2, and Legendary spawners have a weight of 1. It is incredibly rare to find Epic and Legendary spawners. Uncommon spawners have a cooldown of around 10 minutes, Rare spawners have a cooldown of around 20 minutes, Epic spawners have a cooldown of around 40 minutes, and Legendary spawners have a cooldown of around an hour. This happens regardless whether the spawner is loaded or not and can be spawned regardless of progression. The player has to step really close to the spawner in order for it to activate, and it is possible to use Ominous Bottles to spawn mobs again.</p>           
+    </div>
+</body>
+</html>
